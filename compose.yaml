@@ -1,0 +1,6 @@
+services:
+  toolbox:
+    build: .
+    image: ops-toolbox:latest
+    stdin_open: true
+    tty: true
